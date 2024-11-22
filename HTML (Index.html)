@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Webseite für Autospiele - Rennspiele, Simulationen und Arcade-Games">
+    <title>Autospiele - Einfaches Auto-Umfahrungsspiel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Autospiele</h1>
+        </div>
+    </header>
+
+    <section id="game-container">
+        <h2>Auto-Umfahrungsspiel</h2>
+        <p>Steuere das Auto mit den Pfeiltasten und weiche anderen Fahrzeugen aus!</p>
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Autospiele - Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="game.js"></script>
+</body>
+</html>
