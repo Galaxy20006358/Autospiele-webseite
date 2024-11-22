@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autobahnrennen - Drag Race</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Autobahnrennen - Drag Race</h1>
+    </header>
+
+    <section id="race-container">
+        <h2>Drücke 'W', um zu beschleunigen und 'S', um zu bremsen</h2>
+        <div id="race">
+            <div id="car" style="position: absolute; left: 0px;"></div>
+            <div id="opponent" style="position: absolute; left: 0px;"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Autospiele - Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="dragRace.js"></script>
+</body>
+</html>
